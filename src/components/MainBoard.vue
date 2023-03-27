@@ -10,7 +10,7 @@
         <div class="w-full">
           <div class="py-2">
             <span class="text-sm tracking-wide flex items-center justify-between cursor-pointer hover:text-purple-600" @click="changeVisibilityCards('debit')">
-              Cartões de débito (4*)
+              Cartões de débito (Limitado a 3)
               <i class='bx bxs-chevron-down' v-if="showDebitCards"></i>
               <i class='bx bxs-chevron-up' v-else></i>
             </span>
@@ -37,18 +37,11 @@
                   <strong class="text-purple-600">R$ 1234</strong>
                 </div>
               </li>
-              <li class="flex justify-between items-center font-thin">
-                <span>Picpay</span>
-
-                <div class="flex items-center gap-2">
-                  <strong class="text-purple-600">R$ 1234</strong>
-                </div>
-              </li>
             </ul>
           </div>
           <div class="py-2">
             <span class="text-sm tracking-wide flex items-center justify-between cursor-pointer hover:text-purple-600" @click="changeVisibilityCards('credit')">
-              Cartoes de crédito (4*)
+              Cartoes de crédito (Limitado a 3)
               <i class='bx bxs-chevron-down' v-if="showCreditCards"></i>
               <i class='bx bxs-chevron-up' v-else></i>
             </span>
@@ -75,18 +68,11 @@
                   <strong class="text-purple-600">R$ 1234</strong>
                 </div>
               </li>
-              <li class="flex justify-between items-center font-thin">
-                <span>Picpay</span>
-
-                <div class="flex items-center gap-2">
-                  <strong class="text-purple-600">R$ 1234</strong>
-                </div>
-              </li>
             </ul>
           </div>
           <div class="py-2">
             <span class="text-sm tracking-wide flex items-center justify-between cursor-pointer hover:text-purple-600" @click="changeVisibilityCards('benefit')">
-              Benefícios (4*)
+              Benefícios (Limitado a 3)
               <i class='bx bxs-chevron-down' v-if="showBenefitCards"></i>
               <i class='bx bxs-chevron-up' v-else></i>
             </span>
@@ -108,13 +94,6 @@
               </li>
               <li class="flex justify-between items-center font-thin">
                 <span>Santander</span>
-
-                <div class="flex items-center gap-2">
-                  <strong class="text-purple-600">R$ 1234</strong>
-                </div>
-              </li>
-              <li class="flex justify-between items-center font-thin">
-                <span>Picpay</span>
 
                 <div class="flex items-center gap-2">
                   <strong class="text-purple-600">R$ 1234</strong>
