@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-center items-center px-8 border-b">
+  <header class="flex justify-center items-center px-8 border-b border-purple-300 shadow-sm">
     <div class="flex justify-between gap-2 items-center text-sm font-rubik text-zinc-700 tracking-wider pr-8 h-full w-full truncate">
       <div class="flex items-center gap-4">
         <img src="../assets/images/viper.finance-logo.png" class="w-10 rotate-12 opacity-80">
